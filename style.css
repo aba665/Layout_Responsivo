@@ -17,7 +17,7 @@ body{
     justify-content: center;
 
 }
-.instagram-wrapper{
+.candychat-wrapper{
     display: flex;
     align-items: center;
     justify-content: start;
@@ -25,16 +25,16 @@ body{
     height: 100vh;
 
 }
-.instagram-phone{
+.candychat-phone{
     display: flex;
     align-items: center;
     justify-content: center;
     width: 50%;
 }
-.instagram-phone img{
+.candychat-phone img{
     height: 50rem;
 }
-.instagram-continue{
+.candychat-continue{
     display: flex;
     align-items: center;
     justify-content: space-around;
@@ -56,8 +56,9 @@ body{
 .group:nth-child(1){
     min-height: 19rem;
 }
-.instagram-logo{
+.candychat-logo{
     font-size: 3rem;
+    font-weight: 600;
     height: 3rem;
     margin-bottom: 1rem;
     font-family: 'Meow Script', cursive;
@@ -72,7 +73,7 @@ body{
 .profile-photo img{
     width: 10rem;
 }
-.instagram-login{
+.candychat-login{
     background-color: #a4508b;
     background-image: linear-gradient(326deg, #a4508b 0%, #5f0a87 74%);
     color: #ffffff;
@@ -80,7 +81,7 @@ body{
     border-radius: 4px;
     margin-top: 1.5rem;
 }
-.instagram-logout{
+.candychat-logout{
     color: #33495e;
     margin-top: 1rem;
 }
@@ -121,7 +122,7 @@ body{
     background-image: url(./image/googleplay-button.png);
 }
 @media(max-width: 1024px){
-    .instagram-wrapper{
+    .candychat-wrapper{
         width: 90%;
     }
 }
@@ -130,13 +131,13 @@ body{
         background-color: #0cbaba;
         background-image: linear-gradient(315deg, #0cbaba 0%, #380036 74%);  
     }
-    .instagram-wrapper{
+    .candychat-wrapper{
         width: 90%;
     }
-    .instagram-phone{
+    .candychat-phone{
         display: none;
     }
-    .instagram-continue{
+    .candychat-continue{
         width: 100%;
     }
     .group{
